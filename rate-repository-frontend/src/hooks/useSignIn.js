@@ -22,7 +22,7 @@ const useSignIn = () => {
       return data;
     } catch (e) {
       console.error(e);
-      throw error;
+      throw e;
     }
   };
 
